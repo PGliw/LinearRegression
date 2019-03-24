@@ -20,9 +20,9 @@ def mean_squared_error(x, y, w):
     oraz wyjsciami uzyskanymi z wielowamiu o parametrach w dla wejsc x
     """
     y_pred = polynomial(x, w) #wektor predykcji dla danych wejściowych
-    sub_vect = np.subtract(y_pred, y)
-    sq_vect = np.square(sub_vect)
-    err = np.mean(sq_vect)
+    sub_vect = np.subtract(y_pred, y) #różnica wartość oczekiwana - wartość otrzymana
+    sq_vect = np.square(sub_vect) #kwadrat różnicy
+    err = np.mean(sq_vect) #średnia arytmetyczna kwadratów
     return err
 
 
@@ -32,8 +32,12 @@ def design_matrix(x_train, M):
     :param M: stopien wielomianu 0,1,2,...
     :return: funkcja wylicza Design Matrix Nx(M+1) dla wielomianu rzedu M
     """
-
-    pass
+    #TODO correct this method
+    des_matrix = np.empty([len(x_train), M+1], int)
+    for i in range(len(x_train)-1):
+        for j in range(M):
+            des_matrix[i][j] = pow(x_train[i][0], j)
+    return des_matrix
 
 
 def least_squares(x_train, y_train, M):
