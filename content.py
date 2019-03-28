@@ -33,10 +33,10 @@ def design_matrix(x_train, M):
     :return: funkcja wylicza Design Matrix Nx(M+1) dla wielomianu rzedu M
     """
     #TODO correct this method
-    des_matrix = np.empty([len(x_train), M+1], int)
-    for i in range(len(x_train)-1):
-        for j in range(M):
-            des_matrix[i][j] = pow(x_train[i][0], j)
+    des_matrix = np.empty([len(x_train), M+1], float)
+    for i in range(len(x_train)):#range(n) generuje listę [0, 1, ... n-1] - nie trzeba ręcznie zadawać tego n-1!!!
+        for j in range(M+1):
+            des_matrix[i][j] = pow(x_train[i], (j))
     return des_matrix
 
 
