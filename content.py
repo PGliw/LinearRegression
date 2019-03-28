@@ -48,7 +48,15 @@ def least_squares(x_train, y_train, M):
     :return: funkcja zwraca krotke (w,err), gdzie w sa parametrami dopasowanego wielomianu, a err blad sredniokwadratowy
     dopasowania
     """
-    pass
+    #wzór (2)
+    des_matrix = design_matrix(x_train, M)
+    des_matrix_trans = des_matrix.transpose()
+    dm_product = np.matmul(des_matrix_trans, des_matrix)
+    dm_product_inverse = np.linalg.inv(dm_product)
+    product = np.matmul(dm_product_inverse, des_matrix_trans)
+    parameters = np.matmul(product, y_train) #wektor w to parameters
+    err = mean_squared_error(x_train, y_train, parameters)
+    return (parameters, err)
 
 
 def regularized_least_squares(x_train, y_train, M, regularization_lambda):
