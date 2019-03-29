@@ -32,7 +32,6 @@ def design_matrix(x_train, M):
     :param M: stopien wielomianu 0,1,2,...
     :return: funkcja wylicza Design Matrix Nx(M+1) dla wielomianu rzedu M
     """
-    #TODO correct this method
     des_matrix = np.empty([len(x_train), M+1], float)
     for i in range(len(x_train)):#range(n) generuje listę [0, 1, ... n-1] - nie trzeba ręcznie zadawać tego n-1!!!
         for j in range(M+1):
@@ -68,7 +67,17 @@ def regularized_least_squares(x_train, y_train, M, regularization_lambda):
     :return: funkcja zwraca krotke (w,err), gdzie w sa parametrami dopasowanego wielomianu zgodnie z kryterium z regularyzacja l2,
     a err blad sredniokwadratowy dopasowania
     """
-    pass
+    # wzór (4)
+    des_matrix = design_matrix(x_train, M)
+    des_matrix_trans = des_matrix.transpose()
+    identity_matrix = np.identity(M+1)
+    dm_product = np.matmul(des_matrix_trans, des_matrix)
+    sum_of_matrices = dm_product + regularization_lambda*identity_matrix
+    dm_product_inverse = np.linalg.inv(sum_of_matrices)
+    product = np.matmul(dm_product_inverse, des_matrix_trans)
+    parameters = np.matmul(product, y_train)  # wektor w to parameters
+    err_no_reg = mean_squared_error(x_train, y_train, parameters)
+    return (parameters, err_no_reg)
 
 
 def model_selection(x_train, y_train, x_val, y_val, M_values):
