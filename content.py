@@ -79,7 +79,6 @@ def regularized_least_squares(x_train, y_train, M, regularization_lambda):
     err_no_reg = mean_squared_error(x_train, y_train, parameters)
     return (parameters, err_no_reg)
 
-
 def model_selection(x_train, y_train, x_val, y_val, M_values):
     """
     :param x_train: ciag treningowy wejscia Nx1
@@ -91,7 +90,21 @@ def model_selection(x_train, y_train, x_val, y_val, M_values):
     tj. daje najmniejszy blad na ciagu walidacyjnym, train_err i val_err to bledy na sredniokwadratowe na ciagach treningowym
     i walidacyjnym
     """
-    pass
+    i = 0
+    for M in M_values:
+        ls_sq_train = least_squares(x_train, y_train, M)
+        parameteres = ls_sq_train[0]
+        val_err = mean_squared_error(x_val, y_val, parameteres)
+        result = (ls_sq_train[0], ls_sq_train[1], val_err)
+        print(M, result)
+        if i == 0:
+            best_result = result
+        else:
+            if result[2] < best_result[2]:
+                best_result = result
+
+    i += 1
+    return best_result
 
 def regularized_model_selection(x_train, y_train, x_val, y_val, M, lambda_values):
     """

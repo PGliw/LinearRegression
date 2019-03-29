@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+            <state relative-caret-position="357">
+              <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
               <folding>
                 <element signature="e#410#428#0" expanded="true" />
               </folding>
@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -51,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
+            <state relative-caret-position="1054">
               <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
             </state>
           </provider>
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142">
-              <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+            <state relative-caret-position="-1003">
+              <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
               <folding>
                 <element signature="e#641#654#0" expanded="true" />
               </folding>
@@ -155,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test.TestRegularizedLeastSquares">
+  <component name="RunManager" selected="Python tests.pytest for test.TestLeastSquares">
     <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LinearRegression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,7 +207,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test.TestMeanSquaredError" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test.TestModelSelection" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LinearRegression" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,7 +218,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestMeanSquaredError&quot;" />
+      <option name="_new_target" value="&quot;test.TestModelSelection&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -239,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test.TestRegularizedLeastSquares" />
-        <item itemvalue="Python.sample" />
         <item itemvalue="Python tests.pytest for test.TestLeastSquares" />
+        <item itemvalue="Python tests.pytest for test.TestModelSelection" />
+        <item itemvalue="Python.sample" />
+        <item itemvalue="Python tests.pytest for test.TestRegularizedLeastSquares" />
         <item itemvalue="Python tests.pytest for test.TestDesignMatrix" />
-        <item itemvalue="Python tests.pytest for test.TestMeanSquaredError" />
       </list>
     </recent_temporary>
   </component>
@@ -293,50 +293,58 @@
       <option name="project" value="LOCAL" />
       <updated>1553805899443</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implement least_squares with regulation l_2 funtion">
+      <created>1553855920991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553855920991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_TestDesignMatrix - 2019.03.28 at 20h 40m 43s.xml">
-      <configuration name="pytest for test.TestDesignMatrix" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 05m 27s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestDesignMatrix - 2019.03.28 at 21h 01m 31s.xml">
-      <configuration name="pytest for test.TestDesignMatrix" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 06m 14s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestDesignMatrix - 2019.03.28 at 21h 01m 37s.xml">
-      <configuration name="pytest for test.TestDesignMatrix" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 07m 05s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestDesignMatrix - 2019.03.28 at 21h 01m 47s.xml">
-      <configuration name="pytest for test.TestDesignMatrix" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 07m 34s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestDesignMatrix - 2019.03.28 at 21h 01m 55s.xml">
-      <configuration name="pytest for test.TestDesignMatrix" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 08m 31s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestDesignMatrix - 2019.03.28 at 21h 02m 07s.xml">
-      <configuration name="pytest for test.TestDesignMatrix" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 10m 36s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestLeastSquares - 2019.03.28 at 21h 40m 00s.xml">
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 11m 21s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestLeastSquares - 2019.03.29 at 12h 19m 36s.xml">
       <configuration name="pytest for test.TestLeastSquares" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestLeastSquares - 2019.03.28 at 21h 43m 53s.xml">
+    <history-entry file="pytest_for_test_TestLeastSquares - 2019.03.29 at 13h 50m 43s.xml">
       <configuration name="pytest for test.TestLeastSquares" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestRegularizedLeastSquares - 2019.03.28 at 22h 56m 44s.xml">
-      <configuration name="pytest for test.TestRegularizedLeastSquares" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestRegularizedLeastSquares - 2019.03.28 at 22h 57m 42s.xml">
-      <configuration name="pytest for test.TestRegularizedLeastSquares" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestLeastSquares - 2019.03.29 at 13h 50m 59s.xml">
+      <configuration name="pytest for test.TestLeastSquares" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05374078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39328277" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43770313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +404,8 @@
     <MESSAGE value="Add first implementation of design matrix fun" />
     <MESSAGE value="Correct implementation of function design_matrix(). The issue was: 2 * wrong indexing (range(n-1))" />
     <MESSAGE value="Implement least_squares fun" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement least_squares fun" />
+    <MESSAGE value="Implement least_squares with regulation l_2 funtion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement least_squares with regulation l_2 funtion" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/metrics/regression.py">
@@ -407,37 +416,37 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sample.py" />
-    <entry file="file://$PROJECT_DIR$/data.pkl">
+    <entry file="file://$PROJECT_DIR$/test_data.pkl">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data.pkl">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+        <state relative-caret-position="-1003">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
           <folding>
             <element signature="e#641#654#0" expanded="true" />
           </folding>
@@ -446,8 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        <state relative-caret-position="357">
+          <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
           <folding>
             <element signature="e#410#428#0" expanded="true" />
           </folding>
