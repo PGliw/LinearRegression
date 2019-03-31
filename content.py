@@ -55,7 +55,7 @@ def least_squares(x_train, y_train, M):
     product = np.matmul(dm_product_inverse, des_matrix_trans)
     parameters = np.matmul(product, y_train) #wektor w to parameters
     err = mean_squared_error(x_train, y_train, parameters)
-    return (parameters, err)
+    return parameters, err
 
 
 def regularized_least_squares(x_train, y_train, M, regularization_lambda):
@@ -77,7 +77,7 @@ def regularized_least_squares(x_train, y_train, M, regularization_lambda):
     product = np.matmul(dm_product_inverse, des_matrix_trans)
     parameters = np.matmul(product, y_train)  # wektor w to parameters
     err_no_reg = mean_squared_error(x_train, y_train, parameters)
-    return (parameters, err_no_reg)
+    return parameters, err_no_reg
 
 def model_selection(x_train, y_train, x_val, y_val, M_values):
     """
@@ -90,23 +90,25 @@ def model_selection(x_train, y_train, x_val, y_val, M_values):
     tj. daje najmniejszy blad na ciagu walidacyjnym, train_err i val_err to bledy na sredniokwadratowe na ciagach treningowym
     i walidacyjnym
     """
+    #TODO correct this fun
     i = 0
     for M in M_values:
-        ls_sq_train = least_squares(x_train, y_train, M)
-        parameteres = ls_sq_train[0]
-        val_err = mean_squared_error(x_val, y_val, parameteres)
-        result = (ls_sq_train[0], ls_sq_train[1], val_err)
+        parameters, train_err = least_squares(x_train, y_train, M)
+        val_err = mean_squared_error(x_val, y_val, parameters)
+        result = (parameters, train_err, val_err)
+        print()
         print(M, result)
         if i == 0:
             best_result = result
         else:
             if result[2] < best_result[2]:
                 best_result = result
-
     i += 1
+    print("Best result error:", best_result[1])
     return best_result
 
 def regularized_model_selection(x_train, y_train, x_val, y_val, M, lambda_values):
+    #TODO correct this fun
     """
     :param x_train: ciag treningowy wejscia Nx1
     :param y_train: ciag treningowy wyjscia Nx1
@@ -118,4 +120,16 @@ def regularized_model_selection(x_train, y_train, x_val, y_val, M, lambda_values
     tj. daje najmniejszy blad na ciagu walidacyjnym. Wielomian dopasowany jest wg kryterium z regularyzacja. train_err i val_err to
     bledy na sredniokwadratowe na ciagach treningowym i walidacyjnym. regularization_lambda to najlepsza wartosc parametru regularyzacji
     """
-    pass
+    i = 0
+    for lambda_val in lambda_values:
+        parameters, train_err = regularized_least_squares(x_train, y_train, M, lambda_val)
+        val_err = mean_squared_error(x_val, y_val, parameters)
+        result = (parameters, train_err, val_err, lambda_val)
+        if i == 0:
+            best_result = result
+        else:
+            if result[2] < best_result[2]:
+                best_result = result
+    i += 1
+    print("Best result error:", best_result[1])
+    return best_result

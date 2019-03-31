@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f0ed9ab-5a29-4b08-8df2-a62f119bce3a" name="Default Changelist" comment="">
+    <list default="true" id="4f0ed9ab-5a29-4b08-8df2-a62f119bce3a" name="Default Changelist" comment="Add fault regularized_model_selection fun, find problem in model_selection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content.py" beforeDir="false" afterPath="$PROJECT_DIR$/content.py" afterDir="false" />
     </list>
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+            <state relative-caret-position="782">
+              <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
               <folding>
                 <element signature="e#410#428#0" expanded="true" />
               </folding>
@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/sample.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1003">
-              <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+            <state relative-caret-position="84">
+              <caret line="167" column="8" lean-forward="true" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
               <folding>
                 <element signature="e#641#654#0" expanded="true" />
               </folding>
@@ -85,13 +85,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0800599fadfa6a5815b2c500261d6783f6b1724d" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$USER_HOME$/Anaconda3/Lib/site-packages/sample.py" />
         <option value="$PROJECT_DIR$/sample.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/content.py" />
       </list>
     </option>
@@ -105,10 +111,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="640" />
-    <option name="height" value="340" />
+    <option name="x" value="-417" />
+    <option name="y" value="126" />
+    <option name="width" value="1461" />
+    <option name="height" value="1107" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +137,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,43 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test.TestLeastSquares">
-    <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LinearRegression" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test.TestDesignMatrix" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="LinearRegression" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestDesignMatrix&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test.TestRegularizedModelSelection">
     <configuration name="pytest for test.TestLeastSquares" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LinearRegression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,6 +192,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test.TestModelSelection.test_model_selection_w" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LinearRegression" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestModelSelection.test_model_selection_w&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test.TestRegularizedLeastSquares" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LinearRegression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,13 +222,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test.TestRegularizedModelSelection" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LinearRegression" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestRegularizedModelSelection&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test.TestLeastSquares" />
+        <item itemvalue="Python tests.pytest for test.TestRegularizedModelSelection" />
         <item itemvalue="Python tests.pytest for test.TestModelSelection" />
-        <item itemvalue="Python.sample" />
+        <item itemvalue="Python tests.pytest for test.TestModelSelection.test_model_selection_w" />
         <item itemvalue="Python tests.pytest for test.TestRegularizedLeastSquares" />
-        <item itemvalue="Python tests.pytest for test.TestDesignMatrix" />
+        <item itemvalue="Python tests.pytest for test.TestLeastSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -300,51 +300,64 @@
       <option name="project" value="LOCAL" />
       <updated>1553855920991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implement model_selection function">
+      <created>1553863907976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553863907976</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add fault regularized_model_selection fun, find problem in model_selection">
+      <created>1553864924966</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553864924966</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 05m 27s.xml">
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 14h 35m 56s.xml">
       <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 06m 14s.xml">
+    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.29 at 14h 37m 40s.xml">
+      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 00h 52m 47s.xml">
+      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 00h 54m 52s.xml">
+      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 00h 55m 22s.xml">
+      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 10h 03m 13s.xml">
+      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 10h 04m 30s.xml">
+      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.31 at 10h 06m 16s.xml">
       <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 07m 05s.xml">
-      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestRegularizedModelSelection - 2019.03.31 at 10h 12m 30s.xml">
+      <configuration name="pytest for test.TestRegularizedModelSelection" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 07m 34s.xml">
-      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 08m 31s.xml">
-      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 10m 36s.xml">
-      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 12h 11m 21s.xml">
-      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestLeastSquares - 2019.03.29 at 12h 19m 36s.xml">
-      <configuration name="pytest for test.TestLeastSquares" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestLeastSquares - 2019.03.29 at 13h 50m 43s.xml">
-      <configuration name="pytest for test.TestLeastSquares" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestLeastSquares - 2019.03.29 at 13h 50m 59s.xml">
-      <configuration name="pytest for test.TestLeastSquares" configurationId="tests" />
+    <history-entry file="pytest_for_test_TestRegularizedModelSelection - 2019.03.31 at 10h 14m 06s.xml">
+      <configuration name="pytest for test.TestRegularizedModelSelection" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05374078" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12152502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43770313" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05319149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,6 +366,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,7 +419,9 @@
     <MESSAGE value="Correct implementation of function design_matrix(). The issue was: 2 * wrong indexing (range(n-1))" />
     <MESSAGE value="Implement least_squares fun" />
     <MESSAGE value="Implement least_squares with regulation l_2 funtion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement least_squares with regulation l_2 funtion" />
+    <MESSAGE value="Implement model_selection function" />
+    <MESSAGE value="Add fault regularized_model_selection fun, find problem in model_selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fault regularized_model_selection fun, find problem in model_selection" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/metrics/regression.py">
@@ -426,6 +442,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -436,17 +459,10 @@
     <entry file="file://$PROJECT_DIR$/data.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003">
-          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+        <state relative-caret-position="84">
+          <caret line="167" column="8" lean-forward="true" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
           <folding>
             <element signature="e#641#654#0" expanded="true" />
           </folding>
@@ -455,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+        <state relative-caret-position="782">
+          <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
           <folding>
             <element signature="e#410#428#0" expanded="true" />
           </folding>
