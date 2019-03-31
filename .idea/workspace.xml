@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f0ed9ab-5a29-4b08-8df2-a62f119bce3a" name="Default Changelist" comment="Add fault regularized_model_selection fun, find problem in model_selection">
+    <list default="true" id="4f0ed9ab-5a29-4b08-8df2-a62f119bce3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content.py" beforeDir="false" afterPath="$PROJECT_DIR$/content.py" afterDir="false" />
     </list>
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+            <state relative-caret-position="318">
+              <caret line="118" column="106" lean-forward="true" selection-start-line="118" selection-start-column="106" selection-end-line="118" selection-end-column="106" />
               <folding>
                 <element signature="e#410#428#0" expanded="true" />
               </folding>
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -62,11 +62,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="167" column="8" lean-forward="true" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+            <state relative-caret-position="-243">
+              <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
               <folding>
                 <element signature="e#641#654#0" expanded="true" />
               </folding>
@@ -111,10 +111,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-417" />
-    <option name="y" value="126" />
-    <option name="width" value="1461" />
-    <option name="height" value="1107" />
+    <option name="x" value="2264" />
+    <option name="y" value="204" />
+    <option name="width" value="974" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +138,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,22 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test.TestRegularizedModelSelection">
-    <configuration name="pytest for test.TestLeastSquares" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="LinearRegression" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestLeastSquares&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test.TestRegularizedModelSelection.test_regularized_model_selection_lambda">
     <configuration name="pytest for test.TestModelSelection" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LinearRegression" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,13 +222,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test.TestRegularizedModelSelection.test_regularized_model_selection_lambda" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LinearRegression" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestRegularizedModelSelection.test_regularized_model_selection_lambda&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test.TestRegularizedModelSelection" />
+        <item itemvalue="Python tests.pytest for test.TestRegularizedModelSelection.test_regularized_model_selection_lambda" />
         <item itemvalue="Python tests.pytest for test.TestModelSelection" />
+        <item itemvalue="Python tests.pytest for test.TestRegularizedModelSelection" />
         <item itemvalue="Python tests.pytest for test.TestModelSelection.test_model_selection_w" />
         <item itemvalue="Python tests.pytest for test.TestRegularizedLeastSquares" />
-        <item itemvalue="Python tests.pytest for test.TestLeastSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -314,31 +314,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553864924966</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add fault regularized_model_selection fun, find problem in regularized_model_selection">
+      <created>1554020485881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554020485881</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.29 at 14h 35m 56s.xml">
-      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.29 at 14h 37m 40s.xml">
-      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 00h 52m 47s.xml">
-      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 00h 54m 52s.xml">
-      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 00h 55m 22s.xml">
-      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 10h 03m 13s.xml">
-      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_TestModelSelection_test_model_selection_w - 2019.03.31 at 10h 04m 30s.xml">
-      <configuration name="pytest for test.TestModelSelection.test_model_selection_w" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_TestModelSelection - 2019.03.31 at 10h 06m 16s.xml">
       <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
     </history-entry>
@@ -348,16 +334,38 @@
     <history-entry file="pytest_for_test_TestRegularizedModelSelection - 2019.03.31 at 10h 14m 06s.xml">
       <configuration name="pytest for test.TestRegularizedModelSelection" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.31 at 23h 36m 50s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.31 at 23h 42m 27s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.31 at 23h 47m 06s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.31 at 23h 47m 50s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.31 at 23h 47m 58s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestModelSelection - 2019.03.31 at 23h 49m 07s.xml">
+      <configuration name="pytest for test.TestModelSelection" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_TestRegularizedModelSelection_test_regularized_model_selection_lambda - 2019.03.31 at 23h 58m 19s.xml">
+      <configuration name="pytest for test.TestRegularizedModelSelection.test_regularized_model_selection_lambda" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12152502" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08061117" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05319149" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23510292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,7 +429,8 @@
     <MESSAGE value="Implement least_squares with regulation l_2 funtion" />
     <MESSAGE value="Implement model_selection function" />
     <MESSAGE value="Add fault regularized_model_selection fun, find problem in model_selection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add fault regularized_model_selection fun, find problem in model_selection" />
+    <MESSAGE value="Add fault regularized_model_selection fun, find problem in regularized_model_selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fault regularized_model_selection fun, find problem in regularized_model_selection" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/metrics/regression.py">
@@ -442,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
@@ -459,22 +461,29 @@
     <entry file="file://$PROJECT_DIR$/data.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="167" column="8" lean-forward="true" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
-          <folding>
-            <element signature="e#641#654#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+        <state relative-caret-position="318">
+          <caret line="118" column="106" lean-forward="true" selection-start-line="118" selection-start-column="106" selection-end-line="118" selection-end-column="106" />
           <folding>
             <element signature="e#410#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+          <folding>
+            <element signature="e#641#654#0" expanded="true" />
           </folding>
         </state>
       </provider>
